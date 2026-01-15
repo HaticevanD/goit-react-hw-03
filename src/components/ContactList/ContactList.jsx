@@ -1,7 +1,7 @@
 import css from "./ContactList.module.css";
 import Contact from "../Contact/Contact";
 
-function ContactList({ contacts }) {
+function ContactList({ contacts, onDelete }) {
   return (
     <div className={css.container}>
       <h2 className={css.sectionTitle}>Contacts</h2>
@@ -11,7 +11,11 @@ function ContactList({ contacts }) {
         <ul className={css.list}>
           {contacts.map((contact) => (
             <li key={contact.id} className={css.listItem}>
-              <Contact name={contact.name} number={contact.number} />
+              <Contact
+                name={contact.name}
+                number={contact.number}
+                onDelete={() => onDelete(contact.id)}
+              />
             </li>
           ))}
         </ul>
