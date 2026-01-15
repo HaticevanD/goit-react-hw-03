@@ -1,13 +1,13 @@
 .card {
+  width: 100%;
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 1rem;
   padding: 1.25rem 1.5rem;
   box-shadow: var(--shadow);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  transition: var(--transition);
+  justify-content: space-between;
 }
 
 .card:hover {

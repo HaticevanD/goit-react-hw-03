@@ -1,5 +1,5 @@
 .container {
-  margin-top: 1rem;
+  width: 100%;
 }
 
 .sectionTitle {
@@ -14,8 +14,13 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
+}
+
+.listItem {
+  width: 100%;
 }
 
 .emptyMessage {

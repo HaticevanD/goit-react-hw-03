@@ -4,21 +4,20 @@
   padding: 2rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
-  margin-bottom: 2.5rem;
+  width: 100%;
 }
 
 .formTitle {
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--primary);
-  margin: 0 0 1.5rem 0;
   text-align: center;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 20px;
 }
 
 .fieldGroup {
