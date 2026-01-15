@@ -1,0 +1,25 @@
+.container {
+  margin-top: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 1rem;
+}
+
+.emptyMessage {
+  color: #777;
+  font-style: italic;
+  text-align: center;
+}
